@@ -1,0 +1,29 @@
+body {
+    background-color: #185282;
+    text-align: center;
+}
+
+a, a:hover, a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.get_random_article {
+    margin-top: 10%;
+}
+
+.search_for_article {
+    margin-top: 20px;
+}
+
+.search_bar {
+    width: 75;
+    border-radius: 5px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+ 
+.search_bar:focus {
+    width: 300px;
+}
